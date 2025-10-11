@@ -1,0 +1,11 @@
+/Users/oscarpeinado/Documents/ms-prueba-credit/CreditPro.Domain/bin/Debug/net9.0/CreditPro.Domain.deps.json
+/Users/oscarpeinado/Documents/ms-prueba-credit/CreditPro.Domain/bin/Debug/net9.0/CreditPro.Domain.dll
+/Users/oscarpeinado/Documents/ms-prueba-credit/CreditPro.Domain/bin/Debug/net9.0/CreditPro.Domain.pdb
+/Users/oscarpeinado/Documents/ms-prueba-credit/CreditPro.Domain/obj/Debug/net9.0/CreditPro.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/oscarpeinado/Documents/ms-prueba-credit/CreditPro.Domain/obj/Debug/net9.0/CreditPro.Domain.AssemblyInfoInputs.cache
+/Users/oscarpeinado/Documents/ms-prueba-credit/CreditPro.Domain/obj/Debug/net9.0/CreditPro.Domain.AssemblyInfo.cs
+/Users/oscarpeinado/Documents/ms-prueba-credit/CreditPro.Domain/obj/Debug/net9.0/CreditPro.Domain.csproj.CoreCompileInputs.cache
+/Users/oscarpeinado/Documents/ms-prueba-credit/CreditPro.Domain/obj/Debug/net9.0/CreditPro.Domain.dll
+/Users/oscarpeinado/Documents/ms-prueba-credit/CreditPro.Domain/obj/Debug/net9.0/refint/CreditPro.Domain.dll
+/Users/oscarpeinado/Documents/ms-prueba-credit/CreditPro.Domain/obj/Debug/net9.0/CreditPro.Domain.pdb
+/Users/oscarpeinado/Documents/ms-prueba-credit/CreditPro.Domain/obj/Debug/net9.0/ref/CreditPro.Domain.dll

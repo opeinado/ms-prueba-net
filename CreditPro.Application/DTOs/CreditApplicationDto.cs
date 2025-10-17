@@ -10,4 +10,5 @@ public class CreditApplicationDto
     public DateTime ApplicationDate { get; set; }
     public string Status { get; set; } = null!;
     public string? CollateralDescription { get; set; }
+    public string DescripcionFinal { get; set; } = null!;
 }

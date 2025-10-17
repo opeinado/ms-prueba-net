@@ -3,6 +3,7 @@ using System;
 using CreditPro.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace CreditPro.Infrastructure.Persistence.Migrations
 {
     [DbContext(typeof(CreditProDbContext))]
-    partial class CreditProDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251016233549_AddDescripcionFinalToCreditApplication")]
+    partial class AddDescripcionFinalToCreditApplication
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -35,7 +38,8 @@ namespace CreditPro.Infrastructure.Persistence.Migrations
 
                     b.Property<string>("CollateralDescription")
                         .HasMaxLength(500)
-                        .HasColumnType("character varying(500)");
+                        .HasColumnType("character varying(500)")
+                        .HasColumnName("collateral_description");
 
                     b.Property<decimal>("CreditAmount")
                         .HasColumnType("numeric(18,2)")
@@ -48,10 +52,7 @@ namespace CreditPro.Infrastructure.Persistence.Migrations
                         .HasColumnName("customer_id");
 
                     b.Property<string>("DescripcionFinal")
-                        .IsRequired()
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("text")
-                        .HasDefaultValue("hola soy descripcion final");
+                        .HasColumnType("text");
 
                     b.Property<string>("Status")
                         .IsRequired()

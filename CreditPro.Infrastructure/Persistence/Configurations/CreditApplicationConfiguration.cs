@@ -34,8 +34,10 @@ public class CreditApplicationConfiguration : IEntityTypeConfiguration<CreditApp
             .HasMaxLength(30)
             .IsRequired();
 
-        builder.Property(x => x.CollateralDescription)
-            .HasColumnName("collateral_description")
-            .HasMaxLength(500);
+        builder.Property(e => e.CollateralDescription).HasMaxLength(500);
+
+        builder.Property(e => e.DescripcionFinal)
+            .IsRequired()
+            .HasDefaultValue("hola soy descripcion final");
     }
 }

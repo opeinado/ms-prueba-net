@@ -124,7 +124,8 @@ public class CreditApplicationService : ICreditApplicationService
             CreditAmount = application.CreditAmount,
             ApplicationDate = application.ApplicationDate,
             Status = application.Status,
-            CollateralDescription = application.CollateralDescription
+            CollateralDescription = application.CollateralDescription,
+            DescripcionFinal = application.DescripcionFinal
         };
 
     private static AuditEventDto MapToDto(AuditEvent auditEvent) =>
